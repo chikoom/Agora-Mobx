@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+#root {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.Items li {
+  list-style: none;
+  box-shadow: 1px 1px 3px #aaa;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
