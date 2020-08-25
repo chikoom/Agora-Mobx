@@ -1,16 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { observer } from 'mobx-react'
+import Market from './components/Market'
+import DevTools from 'mobx-react-devtools'
+
 import './App.css'
 
-@observer
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <div>Hello!</div>
-      </div>
-    )
-  }
-}
+const App = observer(props => {
+  return (
+    <div>
+      <h1>AGORA SHOP</h1>
+      <Market />
+    </div>
+  )
+})
 
 export default App
